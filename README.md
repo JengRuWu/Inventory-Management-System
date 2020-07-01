@@ -1,4 +1,4 @@
-# Inventory Management System
+## Inventory Management System
 
 This simple inventory management system is written in python. You can show, input, edit or delete the inventory items easily.
 

@@ -1,10 +1,14 @@
 def read_data():
-    with open('inventory.txt','r', encoding='UTF-8-sig') as f:
-        filedata = f.read()
-        if filedata != "":
-            inventory_data = ast.literal_eval(filedata)
-            return inventory_data
-        else: return dict()
+    if not os.path.isfile('inventory.txt'):
+        open('inventory.txt', 'w', encoding='UTF-8-sig')
+        return dict()
+    else:
+        with open('inventory.txt','r', encoding='UTF-8-sig') as f:
+            filedata = f.read()
+            if filedata != "":
+                inventory_data = ast.literal_eval(filedata)
+                return inventory_data
+            else: return dict()
 
 
 def menu():

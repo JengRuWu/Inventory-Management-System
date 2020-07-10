@@ -5,3 +5,5 @@
 * The default variables of the inventory items are "ID", "Quantity" and "Date". You can easily modify the code to include more details.
 
 * The inventory data will be stored in a dictionary, which will later be saved into a txt file. You don't need to connect to a specific database to run the script.
+
+### Version Update

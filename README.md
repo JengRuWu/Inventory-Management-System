@@ -9,10 +9,17 @@
 
 ### Quick Views
 * Menu page
+
 ![image](https://github.com/JengRuWu/Inventory-management-system/blob/master/Screenshots/Menu.png)
+
 * Adding inventory
+
 ![image](https://github.com/JengRuWu/Inventory-management-system/blob/master/Screenshots/Add_or_edit.png)
+
 * Showing inventory
+
 ![image](https://github.com/JengRuWu/Inventory-management-system/blob/master/Screenshots/Show.png)
+
 * Delete inventory
+
 ![image](https://github.com/JengRuWu/Inventory-management-system/blob/master/Screenshots/Delete.png)
